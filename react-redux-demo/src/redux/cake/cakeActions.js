@@ -1,9 +1,9 @@
-import { BUY_CAKE } from './cakeTypes'
+// src/redux/cake/cakeActions.js
+
+import { BUY_CAKE } from './cakeTypes';
 
 export const buyCake = () => {
     return {
         type: BUY_CAKE
-    }
-}
-
-
+    };
+};
